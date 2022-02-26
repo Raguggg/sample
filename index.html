@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--lang is used say the language-->
+<!--style is used to change some properties-->
+<html lang="en" style="background-color: aliceblue;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title is used to show in above the web page loading bar-->
+    <title>basic of html</title>
+</head>
+<body>
+                 <!--heading in html-->
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+
+                 <!-- paragraph in html-->
+    <!--we can use 'lorem' to create some dumy text-->
+    <p><strong>&ensp;&ensp;&ensp;paragraph</strong></p>
+    <p id="basic">
+        <!--id is used to give a id or link to this paragraph-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis maiores, dolor eaque itaque, omnis, numquam saepe ad vel suscipit nobis dolore qui dolores nesciunt! Provident explicabo dolore voluptatem corrupti.
+    </p>
+    <p><strong>images</strong></p>
+
+                     <!-- image tag-->
+    <!--src is used to point the location of the image-->
+    <img src="rose.jpeg" alt="rose image this text display while image is not able to load">
+    <!--if images are in seperate folder we need to use this tag-->
+    <img src="images/rose.jpeg" alt="it is used to display from folder">
+    <p><strong>link</strong></p>
+
+                      <!--link-->                 
+    <a href="http://www.gooogle.com">it a normal link</a>
+    <br>
+
+    <a href="http://www.gooogle.com" target="_">this is open in new tab</a>
+    <br>
+    <a href="#basic">this link point the basic paragraph</a>
+    <br>
+    <a href="#">this move to the top of web page</a>
+    <br>
+    <a href="http://www.gooogle.com" target="_">
+        <img src="images/rose.jpeg" alt="no image">
+    </a>
+    <p>the above image is like a button if click it it open a link</p>
+              <!--bullet point-->
+    <p> <strong>Printing bullets</strong>  </p>          
+    <ul>
+        <!--ul is a key word used to give '•' bullet -->
+        <li>line one</li>
+        <li>line two</li>
+        <li>line three</li>
+    </ul>
+    <ol>
+    <!--<ol> is use to show number bullets-->
+        <li>line one</li>
+        <li>line two</li>
+        <li>line three</li>
+    </ol>
+
+    <p><strong>Createing a form to get some thing from user</strong></p>
+
+    <form action="process.php" method="post">
+
+        <label >Name</label>
+        <input type="text" name="name">
+        
+
+        <label >Roll No</label>
+        <input type="text , number"  name="rollNo">
+        <p><strong>The lable will print in line by line</strong></p>
+        <div>
+        <label >Name</label>
+        <input type="text" name="name" placeholder="Ragu">
+    </div>
+    <br>
+    <div>
+        <label >Roll No</label>
+        <input type="text , number"  name="rollNo" placeholder="19EEL119">
+    </div>
+    <br>
+    <div>
+        <label >Email</label>
+        <input type="email"  name="email" placeholder="ragug@gmail.com">
+    </div>
+    <br>
+    <div>
+        <label >Date</label>
+        <input type="date"  name="date" >
+    </div>
+    <br>
+    <div>
+        <label >Age</label>
+        <input type="number"  name="age" value="19">
+    </div>
+    <br>
+    <div>
+        
+        <input type="submit"  name="submit" >
+    </div>
+
+
+
+
+ 
+
+    </form>
+
+
+
+</body>
+</html>
